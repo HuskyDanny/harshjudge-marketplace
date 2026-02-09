@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "harshjudge-marketplace",
+  "description": "HarshJudge - AI-native E2E testing orchestration for Claude Code",
+  "owner": {
+    "name": "Allen Pan",
+    "email": "therealjunchen@163.com"
+  },
+  "plugins": [
+    {
+      "name": "harshjudge",
+      "description": "AI-native E2E testing orchestration with visual evidence capture and live dashboard",
+      "version": "0.3.2",
+      "author": {
+        "name": "Allen Pan",
+        "email": "therealjunchen@163.com"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HuskyDanny/HarshJudge.git"
+      },
+      "category": "testing",
+      "homepage": "https://github.com/HuskyDanny/HarshJudge#readme",
+      "repository": "https://github.com/HuskyDanny/HarshJudge",
+      "license": "MIT",
+      "keywords": ["e2e", "testing", "playwright", "browser", "automation", "mcp", "evidence"]
+    }
+  ]
+}
