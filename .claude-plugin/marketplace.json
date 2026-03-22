@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "harshjudge",
-      "description": "AI-native E2E testing orchestration with visual evidence capture and live dashboard",
-      "version": "0.3.2",
+      "description": "AI-native E2E testing orchestration CLI with visual evidence capture and live dashboard",
+      "version": "0.4.0",
       "author": {
         "name": "Allen Pan",
         "email": "therealjunchen@163.com"
@@ -23,7 +23,15 @@
       "homepage": "https://github.com/HuskyDanny/HarshJudge#readme",
       "repository": "https://github.com/HuskyDanny/HarshJudge",
       "license": "MIT",
-      "keywords": ["e2e", "testing", "playwright", "browser", "automation", "mcp", "evidence"]
+      "keywords": [
+        "e2e",
+        "testing",
+        "playwright",
+        "browser",
+        "automation",
+        "cli",
+        "evidence"
+      ]
     }
   ]
 }
